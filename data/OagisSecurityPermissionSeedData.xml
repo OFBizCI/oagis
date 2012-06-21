@@ -22,9 +22,7 @@ under the License.
     <!-- Oagis component security -->
     <SecurityPermission description="View operations in the Oagis application." permissionId="OAGIS_VIEW"/>
 
-    <SecurityGroupPermission groupId="FLEXADMIN" permissionId="OAGIS_VIEW"/>
-    <SecurityGroupPermission groupId="FULLADMIN" permissionId="OAGIS_VIEW"/>
-    <SecurityGroupPermission groupId="VIEWADMIN" permissionId="OAGIS_VIEW"/>
-    <SecurityGroupPermission groupId="BIZADMIN" permissionId="OAGIS_VIEW"/>
+    <!-- SUPER group -->
+    <SecurityGroupPermission groupId="SUPER" permissionId="OAGIS_VIEW"/>
 
 </entity-engine-xml>
